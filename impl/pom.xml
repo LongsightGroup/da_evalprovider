@@ -26,12 +26,12 @@
         <dependency>
             <groupId>org.sakaiproject.evaluation</groupId>
             <artifactId>sakai-evaluation-api</artifactId>
-            <version>10-SNAPSHOT</version>
+            <version>11-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.evaluation</groupId>
              <artifactId>sakai-evaluation-impl</artifactId>
-             <version>10-SNAPSHOT</version>
+             <version>11-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.hierarchy</groupId>
@@ -45,9 +45,8 @@
         </dependency>
 
         <dependency>
-             <groupId>org.sakaiproject</groupId>
-             <artifactId>generic-dao</artifactId>
-             <version>${generic-dao.version}</version>
+            <groupId>org.sakaiproject.genericdao</groupId>
+            <artifactId>generic-dao</artifactId>
         </dependency>
 
         <!-- Spring and Hibernate dependencies. -->
